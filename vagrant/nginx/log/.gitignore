@@ -1,0 +1,7 @@
+# nginx logs
+enterprise-access.log
+enterprise-error.log
+patients-access.log
+patients-error.log
+doctors-access.log
+doctors-error.log

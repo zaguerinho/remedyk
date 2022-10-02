@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* Roboto Regular */
+ @font-face {
+ 	font-family: 'Roboto';
+ 	src: 
+ 		url('/fonts/Roboto/Roboto-Regular.ttf')
+ 		format('truetype');
+ 	font-weight: normal;
+ }
+ 
+ /* Roboto Regular Italic */
+ @font-face {
+ 	font-family: 'Roboto';
+ 	src: 
+ 		url('/fonts/Roboto/Roboto-Italic.ttf')
+ 		format('truetype');
+ 	font-weight: normal;
+ 	font-style: italic;
+ }
+ 
+ /* Roboto Medium */
+ @font-face {
+ 	font-family: 'RobotoMedium';
+ 	src: 
+ 		url('/fonts/Roboto/Roboto-Medium.ttf')
+ 		format('truetype');
+ 	font-weight: normal;
+ 	
+ }
+ 
+ /* Roboto Medium Italic */
+ @font-face {
+ 	font-family: 'RobotoMedium';
+ 	src: 
+ 		url('/fonts/Roboto/Roboto-MediumItalic.ttf')
+ 		format('truetype');
+ 	font-weight: normal;
+ 	font-style: italic;
+ }
+ 
+ /* Roboto Bold */
+ @font-face {
+ 	font-family: 'Roboto';
+ 	src: 
+ 		url('/fonts/Roboto/Roboto-Bold.ttf')
+ 		format('truetype');
+ 	font-weight: bold;
+ }
+ 
+ /* Roboto Bold Italic */
+ @font-face {
+ 	font-family: 'Roboto';
+ 	src: 
+ 		url('/fonts/Roboto/Roboto-BoldItalic.ttf')
+ 		format('truetype');
+ 	font-weight: bold;
+ 	font-style: italic;
+ }
+ 
+ /* AmpleSoft Regular */
+ @font-face {
+ 	font-family: 'AmpleSoft';
+ 	src: 
+ 		url('/fonts/AmpleSoft/AmpleSoft.otf')
+ 		format('opentype');
+ 	font-weight: normal;
+ }
+ 
+ /* AmpleSoft Medium */
+ @font-face {
+ 	font-family: 'AmpleSoftMedium';
+ 	src: 
+ 		url('/fonts/AmpleSoft/AmpleSoft Medium.otf')
+ 		format('opentype');
+ 	font-weight: normal;
+ }
+ 
+ /* AmpleSoft Bold */
+ @font-face {
+ 	font-family: 'AmpleSoft';
+ 	src: 
+ 		url('/fonts/AmpleSoft/AmpleSoft Bold.otf')
+ 		format('opentype');
+ 	font-weight: bold;
+ }
+ 
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Amplesoft';
+	color: #2A377F;
+}

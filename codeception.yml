@@ -1,0 +1,10 @@
+# global codeception file to run tests from all apps
+include:
+    - common
+    - patients
+    - doctors
+    - enterprise
+paths:
+    log: console/runtime/logs
+settings:
+    colors: true

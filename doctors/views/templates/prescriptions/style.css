@@ -1,0 +1,103 @@
+.outline {
+	border: 2px solid #2A377F;
+}
+.logo {
+	height: 60px;
+	width: 60px;
+}
+.left {
+	float: left;
+}
+.right: {
+	float: right;
+	
+}
+.default-margins {
+	padding: 1% 0 0 2%;
+}
+.clearfix {
+	clear:both;	
+}
+.separator {
+	clear:both;
+	width: 98%;
+	height: 1px;
+	border: 1px solid #2A377F;
+	margin: 1%;
+	
+}
+#logo-wrapper {
+	width: 25%;
+	
+}
+#title {
+	width:50%;
+	text-align: center;
+	margin-top: 15px;
+}
+#prescription-number{
+	width: 24%;
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 1%;
+}
+#issue-date-time {
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 1%;
+}
+#patient-name, #patient-address {
+	width: 96%
+}
+#patient-gender, #patient-age, #patient-weight, #patient-height, #patient-blood {
+	width: 18%;
+}
+#patient-email, #patient-phone {
+	width: 48%;
+}
+
+#doctor-name {
+	width: 68%;
+}
+#doctor-license {
+	width: 28%;
+}
+#doctor-signature {
+	text-align: center;
+	width: 98%;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+#reminder {
+	text-align: center;
+	width: 98%;
+	margin-bottom: 10px;
+}
+
+table{
+	width: 100%;
+	margin: 2% 0;
+	border-collapse: collapse;	
+}
+th {
+	background-color: #C5D0E9;
+	border-bottom: 0.5px solid #707EA0;
+	padding: 1%;
+}
+td {
+	border-bottom: 0.5px solid #707EA0;
+	padding: 1%;
+}
+
+#medicine {
+	width: 20%;
+} 
+#quantity {
+	width: 13%;
+} 
+#frequency-lapse {
+	width: 27%;
+} 
+#notes {
+	width: 40%;
+} 

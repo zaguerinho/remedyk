@@ -1,0 +1,226 @@
+html,
+body {
+    height: 100%;
+}
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+.landing-body.skin-remedyk .wrapper {
+	background: url('/images/background.jpg') center/cover no-repeat fixed;
+}
+
+.landing-body.skin-remedyk div.content-wrapper
+{
+	background: none; 
+	
+}
+
+.landing-body.skin-remedyk div.content-wrapper,
+.guest-body.skin-remedyk div.content-wrapper {
+	margin-left: 0;
+}
+
+.landing-body.skin-remedyk .main-header .navbar,
+.landing-body.skin-remedyk .main-header .logo {
+	background: rgba(255,255,255, 0);
+	color: #FFFFFF;
+	/*font-family: 'AmpleSoft', sans-serif;*/
+	/*font-weight: normal;*/
+	/*font-size: 24px;*/
+}
+
+.guest-body.skin-remedyk .main-header .logo
+{
+	box-shadow: 4px 1px 8px 0 rgba(0,0,0,0.12), 4px 1px 8px 0 rgba(0,0,0,0.12);
+}
+
+.landing-body.skin-remedyk .main-header .navbar {
+	box-shadow: none;
+}
+.btn-outline {
+	border: 1px solid #2A377F;
+}
+
+.btn-outline.white-text {
+	border-color: #FFFFFF;
+}
+
+.btn-outline.btn-sm,
+.landing-body.skin-remedyk .navbar .navbar-nav>li>a.btn-outline.btn-sm,
+.guest-body.skin-remedyk .navbar .navbar-nav>li>a.btn-outline.btn-sm {
+	padding: 5px 10px;
+	
+}
+
+.landing-body.skin-remedyk .navbar .navbar-nav>li>a.white-text {
+	color: #FFFFFF;
+}
+
+.landing-body.skin-remedyk .nav > li,
+.guest-body.skin-remedyk .nav > li {
+	padding: 5px 25px 0px 25px;
+}
+
+@media (max-width: 767px) {
+	.landing-body.skin-remedyk .main-header .logo, 
+	.landing-body.skin-remedyk .main-header .navbar,
+	.guest-body.skin-remedyk .main-header .logo, 
+	.guest-body.skin-remedyk .main-header .navbar {
+	    width: 50%;
+	    float: left;
+	    height: 61px;
+	}
+}
+
+.landing-body.skin-remedyk .main-footer,
+.guest-body.skin-remedyk .main-footer {
+	background: rgba(255,255,255, 0);
+	color: #FFFFFF;
+	border: none;
+	margin-left: 0;
+}
+
+.skin-remedyk .white-text {
+	color: #FFFFFF;
+}
+
+.skin-remedyk a.white-text:hover,
+.skin-remedyk a.white-text:focus {
+	color: #DDDDDD;
+}
+
+.landing-body.skin-remedyk .content {
+	margin-top: 65px;
+}
+
+.landing-body.skin-remedyk .form-group {
+    padding-bottom: 7px;
+    margin-top: 0;
+}
+
+.search-results-panel {
+	margin: -18px -30px 0 -30px;
+}
+
+@media (max-width: 767px)
+{
+	.fixed .content-wrapper .search-results-panel {
+		margin-top: -69px;
+	}
+}
+
+.form-group.has-error .help-block {
+	display: block;
+}
